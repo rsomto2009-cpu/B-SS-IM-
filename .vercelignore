@@ -1,0 +1,15 @@
+{
+  "name": "devmaster-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Full Stack Developer Business Platform",
+  "private": true,
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "dev": "next dev"
+  }
+}
